@@ -45,7 +45,7 @@ const car2 = {
   };
   
   // Your code here
-  const {make, model} = car;
+  const {make, model} = car2;
 
     console.log(make); // 'Audi'
     console.log(model); // 'q5'
