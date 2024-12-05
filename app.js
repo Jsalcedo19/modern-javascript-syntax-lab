@@ -125,3 +125,32 @@ if (pizza === 'tasty') {
 // Your code here
 pizza === 'tasty' ? console.log('yum') : console.log('yuck');
 
+
+//Exercise 10: Boolean gates
+// 1. SET LANGUAGE
+
+// Construct a single line of code that assigns a default value using the logical OR operator. This line should match the logic of the following statement: 
+
+// "LANG is equal to localLangConfig or the default value of English."
+
+const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
+
+// a. Create a variable called LANG
+// b. Assign LANG the value of localLangConfig or 'en' as a default
+
+// Your code here
+const LANG = localLangConfig || 'en';
+// Log the result
+console.log('Language setting:', LANG);
+
+// Exercise 11: Optional chaining
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+const adventurer = {
+    name: 'Alice',
+  };
+  
+  let cat = adventurer.cat?.name; // Your code here
+  
+  console.log(cat);
+  
